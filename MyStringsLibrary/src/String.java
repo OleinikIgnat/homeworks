@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class String {
     public static String Spliting (){
         Scanner input = new Scanner(System.in);
@@ -28,7 +29,7 @@ public class String {
         return ("You entered %d words, this is name - %s and lastname - %s \n"
                 + "", M, firstName, lastName);
     }
-     public static String Spliting (){
+     public static String WordsTester (){
     Scanner newScanner = new Scanner(System.in);
         String l = newScanner.nextLine();
         int n = l.length();
@@ -55,7 +56,7 @@ public class String {
             
         }
     }
-    public static String Spliting (){
+    public static String WordsTester (){
         Scanner input = new Scanner(System.in);
         String text = input.nextLine();
         String[] words = text.split(" ");
