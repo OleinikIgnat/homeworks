@@ -1,0 +1,24 @@
+<html>
+
+<head>
+	<title>Html code example</title>
+</head>
+
+<body>
+	<ul style="list-style-type:none;">
+	<li><input id = "txtX" type = "text" style="color:red" value="Привет мир!"/></li>
+	<li>Как тебя зовут?</li>
+	<li><input type = "input" placeholder="Введите ваше имя здесь"/></li>
+	<li><button onClick="fnClick()">Нажми на меня</button></li>
+	<li><input type = "button" style="color:green" value="Click me"/></li>	
+	</ul>
+	
+	<script type = "text/javascript">
+	function fnClick() {
+	var txt = document.getElementById('txtX');
+	txt.value = "Hello world";
+	}
+	</script>
+</body>
+
+</html>
